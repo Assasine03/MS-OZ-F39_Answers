@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  #input-section, #search-section, #sentence-list {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 6px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 0.5%;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  #response-input {
+    margin-top: 10px;
+  }
+  .remove-sentence-button,
+.remove-response-button {
+  margin-left: 5px;
+}
